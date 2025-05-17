@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What is Newton's Law?",
+    "answer": "Force equals mass times acceleration",
+    "subject": "Physics",
+    "student_id": "stu001"
+  },
+  {
+    "question": "What is photosynthesis?",
+    "answer": "A process used by plants to convert light into energy",
+    "subject": "Biology",
+    "student_id": "stu001"
+  }
+]
