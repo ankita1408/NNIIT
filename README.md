@@ -1,18 +1,18 @@
 # NNIIT
-# 🧠 Smart Flashcard System Backend
+# Smart Flashcard System Backend
 
 A simple backend API built with **FastAPI** to support a Smart Flashcard System. This backend allows users to add flashcards with just a question and answer, and automatically infers the **subject** of each flashcard using rule-based keyword matching. Students can then retrieve a mixed batch of flashcards from multiple subjects intelligently.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 Traditional flashcard apps require users to manually tag subjects, which can be cumbersome. This backend simplifies the process by automatically detecting the subject of each flashcard based on keywords in the question. For example, a question containing “photosynthesis” will be categorized under “Biology.”  
 Later, when students request flashcards, the system returns a diverse, shuffled set of flashcards spanning different subjects, tailored to that student.
 
 ---
 
-## 📋 Features
+## Features
 
 - **Add Flashcard** (`POST /flashcard`):  
   Accepts flashcard data (`student_id`, `question`, `answer`) and infers the subject automatically. Saves the flashcard for that student.
